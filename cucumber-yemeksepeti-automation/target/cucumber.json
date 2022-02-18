@@ -1,0 +1,112 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Yemeksepeti uygulaması açılır ve pozitif adımlarla login olunur.",
+        "description": "",
+        "id": "yemeksepeti-login-test;yemeksepeti-uygulaması-açılır-ve-pozitif-adımlarla-login-olunur.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Uygulama Açılır!!!!!!!!",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "\"com.android.packageinstaller:id/permission_allow_button\" id sine tıklanır.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "\"android:id/button2\" id sine tıklanır.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "\"//android.widget.Button[4]\" xpath ine tıklanır.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "\"//android.widget.TextView[3]\" xpath ine tıklanır.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "\"com.inovel.app.yemeksepeti:id/loginButton\" id sine tıklanır.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "\"com.inovel.app.yemeksepeti:id/userNameEditText\" id alanına \"testtest@test.com\" yazılır.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "\"com.inovel.app.yemeksepeti:id/passwordEditText\" id alanına \"Otomasyon.12\" yazılır.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "\"com.inovel.app.yemeksepeti:id/loginButton\" id sine tıklanır.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "\"com.inovel.app.yemeksepeti:id/tooltipDescriptionTextView\" id alanında \"Canın ne yemek isterse, kolayca sipariş ver, afiyetle ye!\" yazdığı kontrol edilir.",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Yemeksepeti login test",
+    "description": "",
+    "id": "yemeksepeti-login-test",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
